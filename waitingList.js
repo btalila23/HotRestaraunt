@@ -33,7 +33,7 @@ var table = [
   });
   
   app.get("/add", function(req, res) {
-    res.sendFile(path.join(__dirname, "make.html"));
+    res.sendFile(path.join(__dirname, "add.html"));
   });
   
   // Displays all characters
