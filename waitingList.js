@@ -46,7 +46,7 @@ var table = [
   
     console.log(chosen);
   
-    for (var i = 0; i < characters.length; i++) {
+    for (var i = 0; i < table.length; i++) {
       if (chosen === table[i].Name) {
         return res.json(table[i]);
       }
